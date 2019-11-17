@@ -4,7 +4,6 @@ This TA for Ubiquiti was developed for an environment with CloudKey, USG and Pro
 
 Changelog:
 
-Added support for wireless connects and disconnects, Edgeswitch link changes    30 Apr 2019
 Added sourcetype and extractions for linkspeed checks                           12 Apr 2019
 Fixed FW rule extraction, Sourcetype renamed from everything ubqt to ubnt       11 Apr 2019
 Added support for the BETA IPS functionality									13 Oct 2018
