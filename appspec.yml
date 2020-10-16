@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /default.xml
+    destination: /opt/splunk/etc/apps/TA-ubiquiti/default/data/ui/nav/
+hooks:
+  BeforeInstall:
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
+      runas: root

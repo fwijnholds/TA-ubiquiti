@@ -1,0 +1,1 @@
+/opt/splunk/bin/splunk start
