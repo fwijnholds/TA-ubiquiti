@@ -9,8 +9,6 @@ files:
     destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/views/
   - source: /default/eventtypes.conf
     destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/default/
-  - source: /default/eventtypes.conf
-    destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/default/
   - source: /default/app.conf
     destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/default/
   - source: /default/tags.conf
@@ -42,8 +40,8 @@ hooks:
       runas: root
     - location: scripts/start_server
       timeout: 300
-      runas: root
+      runas: splunk
   ApplicationStop:
     - location: scripts/stop_server
       timeout: 300
-      runas: root
+      runas: splunk
