@@ -5,8 +5,8 @@ files:
     destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/lookups/
   - source: /default/data/ui/nav/default.xml
     destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/nav/
-  - source: /opt/splunk/bin/ets/apps/TA-Ubiquiti/views/home.xml
-    destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/views/
+  - source: /opt/splunk/bin/ets/apps/TA-Ubiquiti/default/views/home.xml
+    destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/default/views/
   - source: /default/eventtypes.conf
     destination: /opt/splunk/bin/ets/apps/TA-Ubiquiti/default/
   - source: /default/app.conf
