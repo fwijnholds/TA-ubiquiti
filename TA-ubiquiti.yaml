@@ -1,0 +1,69 @@
+TA-ubiquiti:
+- lookups:
+  - ubnt_vendor_actions
+- default:
+  - data:
+    - ui:
+      - nav:
+        - default.xml
+      - views:
+        - home.xml
+  - eventtypes.conf
+  - app.conf
+  - tags.conf
+  - props.conf
+  - transforms.conf
+- static:
+  - appIcon.png
+  - appIcon_2x.png
+  - appIconAlt.png
+  - appIconAlt_2x.png
+- .git:
+  - objects:
+    - pack:
+      - pack-a8dc35f632d6e561001304ddd5ce750cd3a6e856.idx
+      - pack-a8dc35f632d6e561001304ddd5ce750cd3a6e856.pack
+    - info: []
+  - info:
+    - exclude
+  - logs:
+    - refs:
+      - heads:
+        - master
+      - remotes:
+        - origin:
+          - HEAD
+    - HEAD
+  - hooks:
+    - commit-msg.sample
+    - pre-rebase.sample
+    - pre-commit.sample
+    - applypatch-msg.sample
+    - fsmonitor-watchman.sample
+    - pre-receive.sample
+    - prepare-commit-msg.sample
+    - post-update.sample
+    - pre-merge-commit.sample
+    - pre-applypatch.sample
+    - pre-push.sample
+    - update.sample
+  - refs:
+    - heads:
+      - master
+    - tags: []
+    - remotes:
+      - origin:
+        - HEAD
+  - config
+  - HEAD
+  - description
+  - index
+  - packed-refs
+- metadata:
+  - default.meta
+- LICENSE
+- TA-ubiquiti.yaml
+- .gitignore
+- app.manifest
+- dir2yaml.py
+- README.txt
