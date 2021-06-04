@@ -14,4 +14,3 @@ Improved hostapd sourcetyping and added field extractions.						29 aug 2018
 Got approved logos from the vendor.https://www.ubnt.com/marketing/#logos		07 aug 2018
 
 Special thanks to Corey Falo at Ubiquiti for his support, and Paul Jeffery at Splunk for his input! 
-For any questions or contributions please contact me @ flipper@splunk.com
