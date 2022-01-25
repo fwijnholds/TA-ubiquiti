@@ -1,4 +1,5 @@
-vendor_action,action
+vendor_action,cim_action
 A,allowed
 D,blocked
+R,blocked
 BLOCK,blocked
