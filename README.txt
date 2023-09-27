@@ -4,7 +4,7 @@ This TA for Ubiquiti was developed for an environment with CloudKey, UDM Pro, US
 
 Changelog:
 
-Added sc_admins to default.meta for compatibility with Splunk Cloud
+20 Jan 2023 Added sc_admins to default.meta for compatibility with Splunk Cloud
 09 May 2022   Corrected and added CIM fields and made jQuery 3.5 compliant			                      
 30 Apr 2019   Added support for wireless connects and disconnects, Edgeswitch link changes            
 12 Apr 2019   Added sourcetype and extractions for linkspeed checks                                   
